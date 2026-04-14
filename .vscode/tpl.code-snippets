@@ -1,0 +1,22 @@
+{
+  "": {
+    "prefix": "@",
+    "body": [
+      "#include <iostream>",
+      "",
+      "int main(int argc, char *argv[], char *envp[])",
+      "{",
+      "",
+      "  $0",
+      "",
+      "  return 0;",
+      "}",
+    ],
+    "description": "",
+  },
+  "shebang": {
+    "prefix": "#!",
+    "body": ["#!/usr/bin/env bash", "", "$0"],
+    "description": "",
+  },
+}

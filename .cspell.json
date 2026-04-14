@@ -1,0 +1,14 @@
+{
+  "$schema": "https://raw.githubusercontent.com/streetsidesoftware/cspell/main/cspell.schema.json",
+  "words": [
+    "binarized",
+    "imread",
+    "imshow",
+    "imwrite",
+    "kagoshima",
+    "posterized",
+    "prewitt",
+    "saturday",
+    "univ-img-proc-prac"
+  ]
+}

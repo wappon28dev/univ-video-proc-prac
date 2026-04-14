@@ -1,0 +1,15 @@
+cmake_minimum_required(VERSION 3.10.0)
+project(univ-img-proc-prac VERSION 0.1.0 LANGUAGES C CXX)
+
+find_package(OpenCV 4.11.0 REQUIRED)
+include_directories(${OpenCV_INCLUDE_DIRS})
+
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+set(CMAKE_CXX_EXTENSIONS OFF)
+
+file(GLOB_RECURSE SRC_FILES src/*.cpp)
+
+add_executable(univ-img-proc-prac src/main.cpp)
+
+target_link_libraries(univ-img-proc-prac ${OpenCV_LIBS})
