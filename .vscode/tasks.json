@@ -9,9 +9,10 @@
         "-fansi-escape-codes",
         "-g",
         "${file}",
+        "${fileDirname}/../../utils/*.cpp",
         "-o",
         "${workspaceFolder}/out/a",
-        "-std=c++17",
+        "-std=c++20",
         "`pkg-config",
         "--cflags",
         "--libs",
@@ -23,7 +24,9 @@
       "presentation": {
         "reveal": "silent"
       },
-      "problemMatcher": ["$gcc"],
+      "problemMatcher": [
+        "$gcc"
+      ],
       "group": {
         "kind": "build",
         "isDefault": true

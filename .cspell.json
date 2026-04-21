@@ -2,13 +2,20 @@
   "$schema": "https://raw.githubusercontent.com/streetsidesoftware/cspell/main/cspell.schema.json",
   "words": [
     "binarized",
+    "FUON",
+    "fuonize",
+    "fuonsakuradamon",
     "imread",
     "imshow",
     "imwrite",
     "kagoshima",
     "posterized",
     "prewitt",
+    "sakuradamon",
+    "sakurize",
     "saturday",
-    "univ-img-proc-prac"
+    "univ-img-proc-prac",
+    "zunda",
+    "zundamon"
   ]
 }
