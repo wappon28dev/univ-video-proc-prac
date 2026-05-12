@@ -11,6 +11,7 @@
     "imshow",
     "imwrite",
     "kagoshima",
+    "posterization",
     "posterized",
     "prewitt",
     "sakuradamon",
