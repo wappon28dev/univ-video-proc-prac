@@ -39,3 +39,5 @@ build/
 src/01/hw/01--selfie/assets/me@2024-04-11.png
 *.mp4
 *.mov
+
+dist/

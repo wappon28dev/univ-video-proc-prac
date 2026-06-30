@@ -3,7 +3,7 @@
     {
       "type": "shell",
       "label": "build",
-      "command": "/usr/bin/g++ -fcolor-diagnostics -fansi-escape-codes -g \"${file}\" ${fileDirname}/../../utils/*.cpp -o \"${workspaceFolder}/out/a\" -std=c++23 $(pkg-config --cflags --libs opencv4)",
+      "command": "/usr/bin/g++ -fcolor-diagnostics -fansi-escape-codes -g \"${file}\" ${fileDirname}/../../utils/*.cpp -o \"${workspaceFolder}/out/a\" -std=c++23 $(pkg-config --cflags --libs opencv4) -framework OpenGL -framework GLUT",
       "options": {
         "cwd": "${fileDirname}"
       },
